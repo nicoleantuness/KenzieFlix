@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+li {
+    margin-right: 20px;
+}
+figure {
+    width: 160px;
+    height: 160px;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.img-text{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.borda:hover{
+    border: 2px white solid;
+    transition: .5s;
+}
+
+.container{
+    overflow: hidden;
+}
+
+.container ul{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.container ul li{
+     list-style: none;
+    
+     max-width: 100%;
+     
+} 
+
+.img-icon{
+    border-radius: 10px;
+    max-width: 100%;
+    height: 160px;
+    border: 1px white transparent;
+    overflow: hidden;
+}
+
+.img-icon img{
+    max-width: 100%;
+    -webkit-transition: -webkit-transform .5s ease;
+   transition: transform .5s ease;
+    transition: all 0.3s;
+}
+
+.img-icon:hover {
+    transition: .5s;
+    transform: scale(1.2);
+    box-sizing: border-box;
+    cursor: pointer;
+      
+}
+
+.img-box{
+    overflow: hidden;
+    object-fit: cover;
+    border-radius: 10px;
+    max-width: 100%;
+    height: 160px;
+}
+
+li:hover p{
+     color:white;
+}
+
+p{
+    font-family: 'Inter', sans-serif;
+    color: #9C9C9C;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 15px;
+    margin-bottom: 70px;
+    font-weight: 600;
+}
+
+
+.img-box img.img-hover {
+    display: none;
+    cursor: pointer;
+    transition: .5s;
+  }
+  .img-box:hover img.img-default {
+    display: none;
+  }
+  .img-box:hover img.img-hover {
+    display: inherit;
+  }
+
+  button{
+      display: flex;
+      margin: 0 auto;
+      width: 206px;
+      height: 50px;
+      padding: 15px;
+      justify-content: center;
+      box-sizing: border-box;
+      border-radius: 8px;
+      border: 1.5px solid white;
+      background-color: black;
+      color: white;
+      font-family:  'Inter', sans-serif;
+      font-size: 16px;
+      font-weight: 600;
+  }
+
+  button:hover{
+      background-color: white;
+      color: black;
+      
+  }
